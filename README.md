@@ -29,6 +29,12 @@ python scripts/bootstrap.py --strava-auth-init
 
 Note: OneLap (顽鹿) password input is hidden in terminal — no echo while typing. This is expected behavior.
 
+**Before running `--strava-auth-init`**, you must register your own Strava API application to obtain a `client_id` and `client_secret`:
+
+1. Go to [https://www.strava.com/settings/api](https://www.strava.com/settings/api) (login required).
+2. Fill in the application name and other fields, then submit.
+3. Copy your `Client ID` and `Client Secret` — you will be prompted to enter them when running `--strava-auth-init`.
+
 ## Acceptance checklist
 
 - `python scripts/bootstrap.py --onelap-auth-init`

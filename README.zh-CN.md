@@ -29,6 +29,12 @@ python scripts/bootstrap.py --strava-auth-init
 
 说明：顽鹿（OneLap）密码输入为隐藏模式，命令行界面不会显示你输入的字符，这是正常现象。
 
+**运行 `--strava-auth-init` 前**，你需要先在 Strava 网站注册自己的 API 应用，获取 `client_id` 和 `client_secret`：
+
+1. 访问 [https://www.strava.com/settings/api](https://www.strava.com/settings/api)（需要登录）。
+2. 填写应用名称等信息后提交。
+3. 复制你的 `Client ID` 和 `Client Secret`，运行 `--strava-auth-init` 时按提示输入即可。
+
 ## 验收清单
 
 - `python scripts/bootstrap.py --onelap-auth-init`
