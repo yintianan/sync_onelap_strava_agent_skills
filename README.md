@@ -22,7 +22,7 @@ Standalone Agent Skills distribution for OneLap -> Strava sync.
 
 Before syncing, run these two commands manually and follow the prompts:
 
-```
+```bash
 python scripts/bootstrap.py --onelap-auth-init
 python scripts/bootstrap.py --strava-auth-init
 ```
