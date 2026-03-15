@@ -16,7 +16,7 @@ Standalone Agent Skills distribution for OneLap -> Strava sync.
 npx skills add https://github.com/yintianan/sync_onelap_strava_agent_skills
 ```
 
-This command automatically downloads and registers the skill in your local OneLap Agents environment. But you still need to run the manual initialization steps below before syncing.
+This command automatically downloads and registers the skill in your local Agents environment. But you still need to run the manual initialization steps below before syncing.
 
 ## Copy-and-run usage
 
