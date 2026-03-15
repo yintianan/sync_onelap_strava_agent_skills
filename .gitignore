@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+onelap-strava-sync/scripts/__pycache__/
+onelap-strava-sync/scripts/sync_onelap_strava/__pycache__/
