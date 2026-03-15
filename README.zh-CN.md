@@ -10,6 +10,14 @@ OneLap -> Strava 同步独立 Agent Skill 发布仓库。
 - 位于 `onelap-strava-sync/scripts/` 的运行时 Python 代码
 - 首次触发时自动创建隔离 venv 的延迟引导安装
 
+## 快速安装
+
+```bash
+npx skills add https://github.com/yintianan/sync_onelap_strava_agent_skills
+```
+
+此命令会自动下载并在本地 OneLap Agents 环境中注册该技能。但在同步之前，您仍需运行下面的手动初始化步骤。
+
 ## 复制即用
 
 1. 复制 `onelap-strava-sync` 到 `~/.agents/skills/`。

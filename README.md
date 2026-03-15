@@ -10,6 +10,14 @@ Standalone Agent Skills distribution for OneLap -> Strava sync.
 - Runtime Python code bundled under `onelap-strava-sync/scripts/`
 - Lazy bootstrap installer that creates an isolated venv on first trigger
 
+## Quick Install
+
+```bash
+npx skills add https://github.com/yintianan/sync_onelap_strava_agent_skills
+```
+
+This command automatically downloads and registers the skill in your local OneLap Agents environment. But you still need to run the manual initialization steps below before syncing.
+
 ## Copy-and-run usage
 
 1. Copy `onelap-strava-sync` to `~/.agents/skills/`.
