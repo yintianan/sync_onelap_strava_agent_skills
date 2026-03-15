@@ -1,5 +1,7 @@
 # sync_onelap_strava_agent_skills
 
+[简体中文](README.zh-CN.md)
+
 Standalone Agent Skills distribution for OneLap -> Strava sync.
 
 ## What this repo provides
@@ -16,6 +18,17 @@ Standalone Agent Skills distribution for OneLap -> Strava sync.
    - `~/.agents/venvs/onelap-strava-sync/`
 4. Dependencies are installed automatically from `scripts/requirements.txt`.
 
+## Manual initialization required
+
+Before syncing, run these two commands manually and follow the prompts:
+
+```
+python scripts/bootstrap.py --onelap-auth-init
+python scripts/bootstrap.py --strava-auth-init
+```
+
+Note: OneLap (顽鹿) password input is hidden in terminal — no echo while typing. This is expected behavior.
+
 ## Acceptance checklist
 
 - `python scripts/bootstrap.py --onelap-auth-init`
@@ -27,3 +40,11 @@ Standalone Agent Skills distribution for OneLap -> Strava sync.
 
 - Source runtime repo: `C:/Users/13247/Documents/Code Project/opencode test`
 - Sync helper: `tools/sync_from_runtime.ps1`
+
+## Disclaimer
+
+- This project is for **learning purposes only**.
+- Do **not** use it for commercial purposes.
+- Account information is stored **locally only**.
+- Do **not** provide your account credentials to any agent.
+- You are **solely responsible** for any consequences of using this tool.
